@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+.div-2{
+    height: 65vh;
+        width: 100vw;
+        background: url("./img/img.png");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+img{
+    width: 100vw;
+    height: 65vh;
+    opacity: 0.8;
+}
+
+h1{
+    position: absolute;
+    font-size: 70px;
+   top: 340px;
+   width: 234px;
+   height: 96px;
+   left: 39px;
+   align-items: center;
+}
+
+h5{
+    position: absolute;
+    font-size: 30px;
+    top: 300px;
+    width: 117;
+    height: 33;
+    left: 39px;
+    align-items: center;
+}
+
+.div-3{
+    position: absolute;
+    top: 455px;
+    height: 50vh;
+    width: 100vw;
+    background: #000000fa ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+p{
+    position: absolute;
+    color: #8A7051;
+    width: 336px;
+    height: 50px;
+    font-size: 20px;
+    left: 53px;
+   top: 30px;
+}
+
+#p-2{
+    margin: 19px;
+    left: 34px;
+}
+
+
+
+Input{
+  color: #593A16;
+  width: 300px;
+  height: 50px;
+  border-radius: 8px;
+  background: #000000;
+  opacity: 0.8;
+  margin-top: 100px;
+  padding-left: 15px;
+  border: 1px solid #FDA43C;
+  box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.input-1{
+background-image: url(./img/email.png);
+background-repeat: no-repeat;
+background-position: 256px ;
+}
+
+.input-2{
+   margin: 10px;
+   background-image: url(./img/senha.png);
+background-repeat: no-repeat;
+background-position: 256px ;
+}
+
+button{
+    width: 290px;
+    height: 48px;
+    border-radius: 8px;
+    background: #FDA43C;
+    margin: 10px;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
+    width: 270px;
+    height: 38;
+}
+
+#p-3{
+    margin-top: 260px;
+    width: 250px;
+    color: #6C5A45;
+    margin-left: 40px;
+    font-size: 13px;
+    margin-left: 87px;
+}
+
+a{
+    margin-top: 30px;
+    font-size: 12px;
+    color: #FDA43C;
+}
+
+@media (min-width: 440px){
+    .div-2 h1{
+        top: 315px;
+        left: auto;
+        font-size: 100px;
+    }
+    .div-2 h5{
+        font-size: 40px;
+        top: 280px;
+        left: auto;
+    }
+     
+    .div-3 p{
+    left: auto;
+    }
+    #p-2{
+        left: auto;
+    }
+}
